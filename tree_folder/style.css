@@ -1,0 +1,20 @@
+.folder, .file {
+    margin-left: 20px;
+}
+
+.folder::before, .file::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background-size: cover;
+}
+
+.folder::before {
+    background-image: url('img/1.jpg');
+}
+
+.file::before {
+    background-image: url('img/2.jpg');
+}
